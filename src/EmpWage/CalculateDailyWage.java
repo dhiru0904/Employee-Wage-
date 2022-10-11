@@ -1,6 +1,6 @@
 package EmpWage;
 
-public class UC2 {
+public class CalculateDailyWage {
     public static void main(String[] args) {
         //Declaring the variables.
         double isPresent = 1;

@@ -2,7 +2,7 @@ package LineComparision;
 
 import java.util.Scanner;
 
-public class UC2 {
+public class TwoLineAreEqual {
     public static void main(String [] args){
         int x1,y1,x2,y2;
         System.out.println("enter the value of starting and ending");

@@ -1,6 +1,6 @@
 package LineComparision;
 import java.util.Scanner;
-public class UC3 {
+public class  GreaterOrLess{
         public static void main(String[] args) {
             System.out.println("Welcome to Line Comparison Computation Program");
             Scanner scan = new Scanner(System.in);

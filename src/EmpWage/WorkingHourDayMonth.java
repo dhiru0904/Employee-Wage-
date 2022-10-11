@@ -1,18 +1,23 @@
 package EmpWage;
-import java.util.Random;
-     public class UC5 {
+
+    import java.util.Random;
+
+    public class  WorkingHourDayMonth{
         public static void main(String[] args) {
-            //Declaring the variables.
             Random random = new Random();
             int randomCheck;
-            int empHour;
-            int wagePerHour = 20;
+            int empHour = 0;
+            int wagePerHour = 10;
             int salary = 0;
             int numWorkingDays = 20;
             int monthlySalary = 0;
+            int maxHours = 100;
+            int totalWorkingHours = 0;
+            int totalWorkingDays = 0;
 
-            for (int i=1; i <= numWorkingDays; i++)
+            while (totalWorkingDays < numWorkingDays && totalWorkingHours < maxHours)
             {
+                totalWorkingDays++;
                 randomCheck = random.nextInt(3);
                 switch (randomCheck) {
                     case 0 :
@@ -33,11 +38,13 @@ import java.util.Random;
                         salary = empHour * wagePerHour;
                         break;
                 }
-                monthlySalary = monthlySalary + salary;
+                monthlySalary += salary;
+                totalWorkingHours += empHour;
             }
+            System.out.println();
+            System.out.println("Total working days of an Employee is: "+totalWorkingDays+"\n");
+            System.out.println("Total working hour of an Employee is: "+totalWorkingHours+"\n");
             System.out.println("Salary of an Employee in a month is: $"+monthlySalary);
-
-
         }
-    }
 
+}

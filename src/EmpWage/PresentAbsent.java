@@ -1,6 +1,6 @@
 package EmpWage;
 
-public class UC1 {
+public class PresentAbsent {
     public static void main(String[] args) {
         double isPresent = 1;
         double randomCheck = (double) Math.floor((Math.random() * 10) % 2);

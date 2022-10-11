@@ -1,7 +1,7 @@
 package EmpWage;
     import java.util.Random;
 
-    public class UC4 {
+    public class SwitchCase {
         public static void main(String[] args) {
             //Declaring the variables.
             Random random = new Random();

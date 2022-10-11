@@ -1,6 +1,6 @@
 package EmpWage;
 
-public class UC3 {
+public class AddPartTimeWage {
     public static void main(String[] args) {
         //Declaring the variables.
         double isPartTime = 1;
